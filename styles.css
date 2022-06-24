@@ -126,14 +126,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .dropdown img {
   width: 12px;
   height: 10px;
 }
+
+.dropdown:active {
+  color: var(--softRed);
+  opacity: 75%;
+}
+
 .question {
-  cursor: pointer;
   font-weight: 400;
   line-height: 2.4;
 }
